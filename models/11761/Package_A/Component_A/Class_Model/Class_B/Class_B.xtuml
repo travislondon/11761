@@ -7,57 +7,6 @@ INSERT INTO O_OBJ
 	'Class_B',
 	'',
 	"00000000-0000-0000-0000-000000000000");
-INSERT INTO O_REF
-	VALUES ("8b65ae57-4df2-44f6-8a0c-b50887cce428",
-	"b51ea722-cac3-4465-89ef-58ad64561f8f",
-	0,
-	"e4ae2cd3-a480-41e0-a1ce-1e22c9d6b83c",
-	"f79e7eb8-7d25-493f-b984-a7ff9946d4d1",
-	"dc4b1360-38ca-4e31-9471-71749af34674",
-	"c16a0db1-89da-4e3c-a520-9b22ad02f19f",
-	"2399d812-6098-4751-a592-59fc763fe45e",
-	"195fc828-9c14-456c-ac24-efa3cc5b89ee",
-	"00000000-0000-0000-0000-000000000000",
-	0,
-	'',
-	'Class_A',
-	'id',
-	'R1');
-INSERT INTO R_RGO_PROXY
-	VALUES ("8b65ae57-4df2-44f6-8a0c-b50887cce428",
-	"f79e7eb8-7d25-493f-b984-a7ff9946d4d1",
-	"dc4b1360-38ca-4e31-9471-71749af34674",
-	'../Class_Model.xtuml');
-INSERT INTO O_RTIDA_PROXY
-	VALUES ("e4ae2cd3-a480-41e0-a1ce-1e22c9d6b83c",
-	"b51ea722-cac3-4465-89ef-58ad64561f8f",
-	0,
-	"f79e7eb8-7d25-493f-b984-a7ff9946d4d1",
-	"c16a0db1-89da-4e3c-a520-9b22ad02f19f",
-	'../Class_Model.xtuml');
-INSERT INTO O_RATTR
-	VALUES ("2399d812-6098-4751-a592-59fc763fe45e",
-	"8b65ae57-4df2-44f6-8a0c-b50887cce428",
-	"e4ae2cd3-a480-41e0-a1ce-1e22c9d6b83c",
-	"b51ea722-cac3-4465-89ef-58ad64561f8f",
-	1,
-	'id');
-INSERT INTO O_BATTR_PROXY
-	VALUES ("e4ae2cd3-a480-41e0-a1ce-1e22c9d6b83c",
-	"b51ea722-cac3-4465-89ef-58ad64561f8f",
-	'../Class_A/Class_A.xtuml');
-INSERT INTO O_ATTR
-	VALUES ("2399d812-6098-4751-a592-59fc763fe45e",
-	"8b65ae57-4df2-44f6-8a0c-b50887cce428",
-	"00000000-0000-0000-0000-000000000000",
-	'id',
-	'',
-	'',
-	'id',
-	0,
-	"ba5eda7a-def5-0000-0000-000000000007",
-	'',
-	'');
 INSERT INTO O_ID
 	VALUES (0,
 	"8b65ae57-4df2-44f6-8a0c-b50887cce428");
