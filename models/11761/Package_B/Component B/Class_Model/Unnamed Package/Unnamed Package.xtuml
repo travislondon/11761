@@ -1,0 +1,54 @@
+-- BP 7.1.6 content: Package syschar: 3 persistence-version: 7.1.6
+
+INSERT INTO EP_PKG
+	VALUES ("a482bde7-4488-4290-82bf-16f96c007aa3",
+	"00000000-0000-0000-0000-000000000000",
+	"c5b9921f-ab63-4a5a-8fc7-6033c16a3484",
+	'Unnamed Package',
+	'',
+	0);
+INSERT INTO GD_MD
+	VALUES ("368f90dd-c6a6-4c52-b6ee-f7ac67e4f63b",
+	112,
+	"a482bde7-4488-4290-82bf-16f96c007aa3",
+	108,
+	0,
+	0,
+	1,
+	1,
+	1,
+	12,
+	1,
+	0,
+	0,
+	0,
+	0,
+	0,
+	'',
+	'11761::Package_B::Component B::Class_Model::Unnamed Package');
+INSERT INTO DIM_DIA
+	VALUES ("368f90dd-c6a6-4c52-b6ee-f7ac67e4f63b",
+	'',
+	1.000000,
+	0.000000,
+	0.000000,
+	"00000000-0000-0000-0000-000000000000");
+INSERT INTO PE_PE
+	VALUES ("a482bde7-4488-4290-82bf-16f96c007aa3",
+	1,
+	"2862974c-203e-47f2-9fa6-3c3ad9125068",
+	"00000000-0000-0000-0000-000000000000",
+	7);
+INSERT INTO EP_PKG_PROXY
+	VALUES ("2862974c-203e-47f2-9fa6-3c3ad9125068",
+	"00000000-0000-0000-0000-000000000000",
+	"c5b9921f-ab63-4a5a-8fc7-6033c16a3484",
+	'Class_Model',
+	'',
+	0,
+	'../Class_Model.xtuml');
+INSERT INTO S_SYS_PROXY
+	VALUES ("c5b9921f-ab63-4a5a-8fc7-6033c16a3484",
+	'11761',
+	1,
+	'../../../../11761.xtuml');
